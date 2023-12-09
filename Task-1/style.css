@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  background-color: #bd8f53;
+}
+html {
+  scroll-behavior: smooth;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 100rem;
+}
+
+/* home section  */
+
+.navbar {
+  display: inline-flex;
+  width: 100%;
+  height: 105px;
+  /* position: fixed;
+  top: 0;
+  margin: 0; */
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  /* margin-right: 10x; */
+}
+nav ul li {
+  display: inline;
+  margin: 10px 20px;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: "Young Serif", serif;
+  padding: 5px;
+}
+.logo {
+  text-decoration: none;
+  text-align: left;
+  margin: 15px 100px;
+  padding: 10px;
+}
+.logo a {
+  text-decoration: none;
+  color: #725222;
+  font-family: "Ephesis", cursive;
+  font-weight: 600;
+  font-size: 60px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0 20px 0;
+}
+.container .content {
+  height: 40vh;
+  width: 30vw;
+  text-align: center;
+  align-items: center;
+}
+.image {
+  display: scroll;
+  height: 60vh;
+  width: 30vw;
+}
+.container .content .h1 {
+  font-size: 60px;
+  font-family: "Young Serif", serif;
+}
+.container .content .sub {
+  font-size: 30px;
+  padding: 4px;
+  font-family: "Young Serif", serif;
+}
+.icons {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+  color: black;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover {
+  color: beige;
+}
+
+/* aboutme section */
+.aboutme {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 120px 10px 120px;
+}
+.matter {
+  width: 50vw;
+  height: 60vh;
+  text-align: center;
+  display: block;
+}
+.matter .heading {
+  font-family: "Young Serif", serif;
+  font-size: 60px;
+  margin: 20px 0px;
+}
+.matter p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 30px 0px 50px 0px;
+}
+.matter a {
+  font-size: 24px;
+  padding: 10px;
+  margin: 30px 0px;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: black;
+  color: #bd8f53;
+}
+#mypic {
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+/* skills section  */
+.myskills {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.myskills p {
+  text-align: center;
+  align-items: center;
+  font-family: "Young Serif", serif;
+  font-size: 60px;
+  margin: 5px 0px;
+}
+.skillscontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skillscontainer .technical {
+  border: 2px solid black;
+  height: 70vh;
+  width: 30vw;
+}
+.skillscontainer p {
+  margin: 20px;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  text-align: center;
+}
+.frontend {
+  width: 90%;
+  height: 1%;
+  margin: 0;
+  background-color: #725222;
+}
+.android {
+  width: 80%;
+  height: 1%;
+  background-color: #725222;
+}
+.java {
+  width: 85%;
+  height: 1%;
+  background-color: #725222;
+}
+.uiux {
+  width: 60%;
+  height: 1%;
+  background-color: #725222;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(221, 191, 191);
+}
+
+.skillscontainer .tools {
+  border: 2px solid black;
+  height: 70vh;
+  width: 30vw;
+}
+.progessbar {
+  width: 90%;
+  height: 20px;
+  align-items: center;
+  margin: 0 10px 0 15px;
+  background-color: rgb(41, 28, 20);
+  border: 2px solid rgb(41, 27, 27);
+}
+.items {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.github {
+  width: 88%;
+  height: 1%;
+  margin: 0;
+  background-color: #725222;
+}
+.android {
+  width: 80%;
+  height: 1%;
+  background-color: #725222;
+}
+.aws {
+  width: 85%;
+  height: 1%;
+  background-color: #725222;
+}
+.vscode {
+  width: 90%;
+  height: 1%;
+  background-color: #725222;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(221, 191, 191);
+}
+
+/* experience section  */
+/* .experiencecontainer {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+} */
+
+/* projects section  */
+.projects{
+  height: 100vh;
+  margin: 80px 0;
+}
+.projectscontainer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 40px 10px;
+  width: 25vw;
+  height: 60vh;
+  border: 2px solid black;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.pcontainer {
+  padding: 2px 16px;
+}
+.projectsheading {
+  text-align: center;
+  align-items: center;
+  font-family: "Young Serif", serif;
+  font-size: 60px;
+  margin: 20px 0px;
+}
+.projectscontainer h4{
+  font-size: 28px;
+  font-family:"Young Serif", serif;
+}
+
+/* contact section  */
+.contactcontainer{
+  display: flex;
+  height: 30vh;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 24vw;
+}
+.links a{
+  text-decoration: none;
+  color: black;
+}
+.info h1{
+  font-size: 34px;
+  margin: 10px;
+  text-align: center;
+}
+.info ul{
+  list-style: none;
+}
+.info li{
+  margin: 2px;
+}
+.info{
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+.sections ul li{
+  font-size: 20px;
+  text-decoration: underline;
+  list-style: circle;
+}
+
+
+
+/* footer section  */
+footer {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  height: 30px;
+  background-color: black;
+  color: rgb(188, 176, 176);
+  font-size: 18px;
+}
+
+/* scroll to top button  */
+.stt {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: beige
+    url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E")
+    center no-repeat;
+  box-shadow: 0 0.25rem 0.5rem 0 rgb(20, 0, 0);
+  opacity: 0.8;
+}
